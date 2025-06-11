@@ -72,9 +72,9 @@ export const ProjectsSection = () => {
 				</p>
 
 				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-					{projects.map((project, key) => (
+					{projects.map((project) => (
 						<div
-							key={key}
+							key={project.id} // Use the unique `id` property from the project object
 							className="group bg-card rounded-lg overflow-hidden shadow-xs card-hover flex flex-col"
 						>
 							<div className="h-48 overflow-hidden">
@@ -87,8 +87,11 @@ export const ProjectsSection = () => {
 
 							<div className="p-6 flex flex-col flex-grow">
 								<div className="flex flex-wrap gap-2 mb-4">
-									{project.tags.map((tag) => (
-										<span className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground">
+									{project.tags.map((tag, index) => (
+										<span
+											key={index} // Add a key for the tags as well (use index if tags are static)
+											className="px-2 py-1 text-xs font-medium border rounded-full bg-secondary text-secondary-foreground"
+										>
 											{tag}
 										</span>
 									))}
