@@ -80,8 +80,8 @@ import { faLinkedin, faTwitter, faInstagram, faTwitch } from "@fortawesome/free-
                 <div className="ml-4 text-left">
                   <h4 className="font-medium">Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    San Diego, CA (currently) <br />
-                    or West Lafayette, IN (usually)
+                    West Lafayette, IN (usually) <br />
+                    or San Diego, CA (sometimes)
                   </a>
                 </div>
               </div>

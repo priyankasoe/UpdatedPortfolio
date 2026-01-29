@@ -9,7 +9,7 @@ const projects = [
 		image: "/projects/sphero.gif",
 		imagePosition: "object-middle",
 		tags: ["Robotics", "Computer Vision", "Project Management"],
-		demoUrl: "https://wikipage.purduearc.com/sphero-swarm",
+		demoUrl: "https://spheroswarm.com",
 		githubUrl: "#",
 	},
   {
