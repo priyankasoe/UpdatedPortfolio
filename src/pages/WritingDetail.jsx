@@ -8,7 +8,7 @@ export const WritingDetail = () => {
   const [writing, setWriting] = useState(null);
 
   useEffect(() => {
-    fetch("/src/data/writings.csv")
+    fetch("/data/writings.csv")
       .then((response) => response.text())
       .then((data) => {
         const parsedWritings = parseWritings(data);

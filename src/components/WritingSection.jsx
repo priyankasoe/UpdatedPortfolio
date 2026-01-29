@@ -8,7 +8,7 @@ export const WritingsSection = () => {
 
   useEffect(() => {
     // Fetch the dummy data from the CSV file
-    fetch("/src/data/writings.csv")
+    fetch("/data/writings.csv")
       .then((response) => response.text())
       .then((data) => {
         setWritings(parseWritings(data));
