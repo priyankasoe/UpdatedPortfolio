@@ -12,8 +12,19 @@ const projects = [
 		demoUrl: "https://spheroswarm.com",
 		githubUrl: "#",
 	},
-  {
+	{
 		id: 2,
+		title: "Robust Multi-Object Tracking for Identical Swarm Robots",
+		description:
+			"A vision-based multi-object tracking pipeline for visually identical Sphero BOLT swarm robots, comparing YOLO detections with centroid, SORT, DeepSORT-lite, and DeepSORT trackers.",
+		image: "/projects/robust-swarm-tracking.png",
+		imagePosition: "object-top",
+		tags: ["Robotics", "Computer Vision", "YOLO", "Tracking"],
+		demoUrl: "https://pdflink.to/36b498a5/",
+		githubUrl: "#",
+	},
+	{
+		id: 3,
 		title: "Squirrel Review",
 		description:
 			"An AI-powered web app for Purdue CS students, featuring a customized database of problem sets and integrated Linux shell for embedded coding. ",
@@ -23,8 +34,8 @@ const projects = [
 		demoUrl: "https://devpost.com/software/squirrel-review",
 		githubUrl: "https://github.com/alankang30/boilermake-xii",
 	},
-  {
-		id: 3,
+	{
+		id: 4,
 		title: "Automotive Radar Principles",
 		description:
 			"Self-written paper detailing the principles of automotive radar systems, including signal processing and target detection.",
@@ -35,7 +46,7 @@ const projects = [
 		githubUrl: "#",
 	},
 	{
-		id: 4,
+		id: 5,
 		title: "imAIthination",
 		description:
 			"A unique educational platform utilizing AI to generate unique images based on math word problems, enhancing learning through visual aids.",
@@ -46,7 +57,7 @@ const projects = [
 		githubUrl: "https://github.com/surface-integral/boilermake-2024",
 	},
 	{
-		id: 5,
+		id: 6,
 		title: "Variations in Cohort Definitions of DR",
 		description:
 			"Published literature review highlighting and analysing the discrepancies in cohort definitions of diabetic retinopathy (DR) across various studies.",
